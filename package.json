@@ -1,0 +1,40 @@
+{
+  "name": "interact-ops",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A professional Probot app for crypto, wallet, DeFi, and blockchain issue triage in GitHub organizations.",
+  "author": "Fiercexontan",
+  "license": "ISC",
+  "homepage": "https://github.com/https://github.com/Fiercexontan-Ops/https://github.com/Fiercexontan-Ops/Support",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/https://github.com/Fiercexontan-Ops/https://github.com/Fiercexontan-Ops/Support.git"
+  },
+  "keywords": [
+    "probot",
+    "github-app",
+    "crypto",
+    "blockchain",
+    "wallet-support",
+    "defi",
+    "security",
+    "automation",
+    "github-bot"
+  ],
+  "type": "module",
+  "scripts": {
+    "start": "probot run ./index.js",
+    "dev": "probot run ./index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "probot": "^13.0.1"
+  },
+  "devDependencies": {
+    "nock": "^14.0.0-beta.5",
+    "smee-client": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
