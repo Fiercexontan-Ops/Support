@@ -1,0 +1,24 @@
+name: "👛 Wallet Issue"
+description: "Report wallet, balance, or access issues."
+title: "[WALLET] "
+labels: ["type: wallet", "priority: normal"]
+assignees: ["tommy88734"]
+body:
+  - type: input
+    id: wallet_type
+    attributes:
+      label: "Wallet type"
+      placeholder: "Ex: MetaMask, Ledger, Trezor"
+      required: true
+  - type: input
+    id: network
+    attributes:
+      label: "Network / Blockchain"
+      placeholder: "Ex: Ethereum, BSC"
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: "Describe the problem"
+      placeholder: "Missing funds, balance mismatch, etc."
+      required: true

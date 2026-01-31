@@ -1,0 +1,24 @@
+name: "⛓️ Transaction Issue"
+description: "Report failed, stuck, or pending transactions."
+title: "[TRANSACTION] "
+labels: ["type: transaction", "priority: high"]
+assignees: ["maestro-lab9"]
+body:
+  - type: input
+    id: tx_hash
+    attributes:
+      label: "Transaction hash"
+      placeholder: "0x..."
+      required: true
+  - type: input
+    id: network
+    attributes:
+      label: "Network"
+      placeholder: "Ex: Ethereum, BSC"
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: "Describe the issue"
+      placeholder: "Details about the problem..."
+      required: true

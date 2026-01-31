@@ -1,0 +1,24 @@
+name: "📊 DeFi / Smart Contract Issue"
+description: "Report issues related to swaps, staking, bridges, or contracts."
+title: "[DEFI] "
+labels: ["type: defi", "priority: normal"]
+assignees: ["maestro-lab9", "tommy88734"]
+body:
+  - type: input
+    id: platform
+    attributes:
+      label: "DeFi platform"
+      placeholder: "Ex: Uniswap, PancakeSwap"
+      required: true
+  - type: input
+    id: token
+    attributes:
+      label: "Token(s) involved"
+      placeholder: "Ex: USDT, ETH"
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: "Describe the issue"
+      placeholder: "Swap failed, liquidity problem, etc."
+      required: true

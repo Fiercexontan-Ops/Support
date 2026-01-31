@@ -1,16 +1,24 @@
-name: Security Issue
-description: Report a security concern like wallet hack, phishing, or private key exposure.
+name: "🔐 Security Issue"
+description: "Report a security vulnerability, access, or key compromise."
+title: "[SECURITY] "
 labels: ["type: security", "priority: critical"]
 assignees: ["enphoria-ml"]
-body: |
-  ⚠️ **Security Issue Template**
-
-  **Describe the issue here:**
-  - What happened?
-  - When did it happen?
-  - Steps to reproduce (if applicable)
-
-  **Do NOT include sensitive information** like private keys, seed phrases, or passwords.
-
-  **Optional:**
-  - Screenshots or logs
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Describe the security issue"
+      placeholder: "Do not include private keys, seed phrases, or passwords."
+      required: true
+  - type: input
+    id: steps
+    attributes:
+      label: "Steps to reproduce (if applicable)"
+      placeholder: "Detailed steps..."
+      required: false
+  - type: input
+    id: logs
+    attributes:
+      label: "Logs / screenshots (without secrets)"
+      placeholder: "Attach logs or screenshots..."
+      required: false
