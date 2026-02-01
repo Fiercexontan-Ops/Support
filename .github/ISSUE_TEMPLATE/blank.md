@@ -7,7 +7,8 @@ assignees: []
 ---
 
 <!--
-Thank you for reaching out to the Fiercexontan Ops team.
+We provide support for the Fiercexontan ecosystem.
+Thank you for opening an issue — our team will review it shortly.
 
 Before submitting your issue, please note:
 • Do NOT share private keys, seed phrases, or passwords
