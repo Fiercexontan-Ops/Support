@@ -6,7 +6,7 @@ labels: ''
 assignees: ''
 
 ---
-> 👋 Thank you for reaching out to **Fiercexontan Ops**.
+> Thank you for taking the time to report an issue **Fiercexontan Ops**.
 >
 > This repository is used to receive and track support requests, bug reports,
 > and general feedback related to the Fiercexontan ecosystem.
